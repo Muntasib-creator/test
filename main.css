@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+.background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(background.png);
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+#logo{
+    width: 20%;
+    height: auto;
+}
+#title{
+    margin-top: 150px;
+    color: #fff;
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: bold;
+}
+#title-big{
+    margin-top: 20px;
+    color: #fff;
+    font-family: Arial;
+    font-size: 150px;
+    font-weight: bold;
+    color: #EB1C22;
+}
+.link{
+    display: block;
+    color: #fff;
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.link svg{
+    color: white;
+    width: 15px;
+    transition: all 0.3 ease-in-out;
+    vertical-align: bottom;
+}
+.link:hover svg{
+    margin-left: px;
+}
+.setion-title{
+    background-color: red;
+    margin: 50px 0px 50px 0px;
+    padding: 0 0 0 0;
+    text-align: center;
+}
